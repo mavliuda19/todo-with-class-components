@@ -22,14 +22,12 @@ class TodoList extends Component {
 			text: this.state.value,
 			complete: false,
 		}
-		if(this.state.value===''){
+		if(this.state.value.trim().length <=0){
 			alert('type something')
 			return
-		}else{
-			this.props.addNewTodo(newTodo)
-			
 		}
-		this.setState({value:''})
+			this.props.addNewTodo(newTodo)	
+		    this.setState({value:''})
 	}
 
 	render() {

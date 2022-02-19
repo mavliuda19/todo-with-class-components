@@ -14,12 +14,7 @@ class App extends Component {
 	}
 
 	addNewTodo = (todo) => {
-		/* if(todo===''){
-			alert('type something')
-		}
-		else */
 		{this.setState({ todos : [todo, ...this.state.todos] })	}
-	 
 	}
 	componentDidMount(){
 		
