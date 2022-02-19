@@ -1,0 +1,31 @@
+.todo-list{
+    margin: 2rem auto;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo-list input{
+width: 320px;
+height: 38px;
+border-radius: 5px;
+border: 2px solid rgba(94, 105, 98, 0.788);
+font-size: 20px;
+padding: 3px;
+}
+.todo-list input:hover{
+    background-color: aliceblue;
+   
+}
+.todo-list button{
+    width: 80px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(104, 129, 107);
+    color: white;
+    font-size: 18px;
+}
+.todo-list button:hover{
+    background-color: rgb(43, 109, 43);
+    cursor: pointer;
+}
